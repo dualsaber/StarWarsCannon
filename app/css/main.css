@@ -1,0 +1,98 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300; }
+
+.type {
+  display: none; }
+
+.year {
+  display: none;
+  color: #D97925; }
+
+h1 {
+  font-weight: 600; }
+
+.hidden {
+  display: none; }
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  font-style: normal;
+  color: #1d1d1d;
+  padding: 5px;
+  border-radius: 3px; }
+  a:hover {
+    text-decoration: none;
+    color: #FFF;
+    background: #D97925; }
+
+sup {
+  font-size: 12px; }
+
+.film h2 {
+  color: #3a9cb5; }
+.film a:hover {
+  background: #3a9cb5; }
+.film .year {
+  color: #3a9cb5; }
+
+.tv h2 {
+  color: #af423e; }
+.tv a:hover {
+  background: #af423e; }
+.tv .year {
+  color: #af423e; }
+
+.vg h2 {
+  color: #8bab46; }
+.vg a:hover {
+  background: #8bab46; }
+.vg .year {
+  color: #8bab46; }
+
+.comic h2 {
+  color: #8b72a9; }
+.comic a:hover {
+  background: #8b72a9; }
+.comic .year {
+  color: #8b72a9; }
+
+.novel h2 {
+  color: #3170bf; }
+.novel a:hover {
+  background: #3170bf; }
+.novel .year {
+  color: #3170bf; }
+
+.unpublished h2 {
+  color: #D97925; }
+.unpublished a:hover {
+  background: #D97925; }
+.unpublished .year {
+  color: #D97925; }
+
+.comic-type:hover {
+  background: #8b72a9 !important; }
+.comic-type + .year {
+  color: #8b72a9 !important; }
+
+.tv-type:hover {
+  background: #af423e !important; }
+.tv-type + .year {
+  color: #af423e !important; }
+
+.film-type:hover {
+  background: #3a9cb5 !important; }
+.film-type + .year {
+  color: #3a9cb5 !important; }
+
+.novel-type:hover {
+  background: #3170bf !important; }
+.novel-type + .year {
+  color: #3170bf !important; }
+
+.vg-type:hover {
+  background: #8bab46 !important; }
+.vg-type + .year {
+  color: #8bab46 !important; }

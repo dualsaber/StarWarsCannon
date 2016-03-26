@@ -1,0 +1,185 @@
+$link-color: #1d1d1d;
+$link-hover: #D97925;
+$color-white: #FFF;
+
+$darken-amount: 25%;
+$film-color: darken(#92CDDC, $darken-amount);
+$vg-color: darken(#C3D69B, $darken-amount);
+$comic-color: darken(#CCC1D9, $darken-amount);
+$novel-color: darken(#8DB3E2, $darken-amount);
+$tv-color: darken(#D99694, $darken-amount);
+$unpublished-color: $link-hover;
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.type {
+  display: none;
+}
+
+.year {
+  display: none;
+  color: $link-hover;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+.hidden {
+  display: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  font-style: normal;
+  color: $link-color;
+  padding: 5px;
+  border-radius: 3px;
+  &:hover {
+    text-decoration: none;
+    color: $color-white;
+    background: $link-hover
+  }
+}
+
+sup {
+  font-size:12px;
+}
+
+
+.film {
+  h2 {
+    color: $film-color;
+  }
+  a {
+    &:hover {
+      background: $film-color;
+    }
+  }
+  .year {
+    color: $film-color;
+  }
+}
+
+.tv {
+  h2 {
+    color: $tv-color;
+  }
+  a {
+    &:hover {
+      background: $tv-color;
+    }
+  }
+  .year {
+    color: $tv-color;
+  }
+}
+
+.vg {
+  h2 {
+    color: $vg-color;
+  }
+  a {
+    &:hover {
+      background: $vg-color;
+    }
+  }
+  .year {
+    color: $vg-color;
+  }
+}
+
+.comic {
+  h2 {
+    color: $comic-color;
+  }
+  a {
+    &:hover {
+      background: $comic-color;
+    }
+  }
+  .year {
+    color: $comic-color;
+  }
+}
+
+.novel {
+  h2 {
+    color: $novel-color;
+  }
+  a {
+    &:hover {
+      background: $novel-color;
+    }
+  }
+  .year {
+    color: $novel-color;
+  }
+}
+
+.unpublished {
+  h2 {
+    color: $unpublished-color;
+  }
+  a {
+    &:hover {
+      background: $unpublished-color;
+    }
+  }
+  .year {
+    color: $unpublished-color;
+  }
+}
+
+
+
+
+
+.comic-type {
+  &:hover {
+    background: $comic-color !important;
+  }
+  + .year {
+    color: $comic-color !important;
+  }
+}
+
+.tv-type {
+  &:hover {
+    background: $tv-color !important;
+  }
+  + .year {
+    color: $tv-color !important;
+  }
+}
+
+.film-type {
+  &:hover {
+    background: $film-color !important;
+  }
+  + .year {
+    color: $film-color !important;
+  }
+}
+
+.novel-type {
+  &:hover {
+    background: $novel-color !important;
+  }
+  + .year {
+    color: $novel-color !important;
+  }
+}
+
+.vg-type {
+  &:hover {
+    background: $vg-color !important;
+  }
+  + .year {
+    color: $vg-color !important;
+  }
+}
